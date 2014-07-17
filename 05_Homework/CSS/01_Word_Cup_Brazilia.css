@@ -1,0 +1,49 @@
+html, body, section, table, td, tr, img, span {
+    padding:0; margin:0;
+}
+
+table {
+    width:800px;
+    height:250px;
+    border:2px solid black;
+    border-collapse:collapse;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+td, th {
+    border:1px solid black;
+    padding:5px;
+}
+select {color:red;}
+.rightaln {display:inline-block;width:100px;text-align:right;margin-right:}
+img {display:inline-block;}
+.rightaln + img {float:right;}
+.centered {text-align:center;}
+input[type="submit"] {
+    width:30px;
+    height:30px;
+    border-radius:100%;
+    padding:0;
+    color:white;
+    background:red;
+    border:0px;
+
+}
+
+.upcoming > input {background:green;}
+.upcoming > select { color:#33FF33;}
+tr:nth-child(even) {background:#E8E8E8;}
+tr:nth-child(odd) {background:#A0A0A0;}
+th {background:#FFCC33;}
+
+section {
+    position: relative;
+    width: 950px;
+    height: 350px;
+    background: #33CC99;
+}

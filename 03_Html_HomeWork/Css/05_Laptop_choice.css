@@ -1,0 +1,108 @@
+/*Backgroud image*/
+body{
+    background-image: url("../Images/silver_background.png");
+
+}
+/*info laptops*/
+span {
+    float: left;
+    font-size: 11px;
+    color: blueviolet;
+}
+/*Main title*/
+h2 {
+    font-size: 30px;
+    margin: 5px;
+    padding: 5px;
+    color: orange;
+    border: 2px solid;
+    text-align: center;
+    border-color: orange;
+    background: black;
+
+}
+/*Main header for laptops*/
+h4{
+    font-size: 15px; font-weight: bold; padding: 0 10px; margin: 10px 0 0;
+    color: purple;
+}
+
+/*Main div for laptos*/
+#maindiv {
+    width: 600px;
+    height: 555px;
+    margin: 15px;
+    border: solid 4px;
+    box-shadow: 10px 10px 5px #888888;
+    border-color: orange;
+    display: block;
+    float: left;
+}
+
+/*Size of all laptos in div*/
+img {
+    width: 120px;
+    height:130px;
+    padding-left: 20px;
+
+
+
+}
+/*size of frame*/
+.frame_laptops{
+    display: inline-block;
+    margin: 15px;
+    float: left;
+    border: solid 2px;
+    border-color: orange;
+    width: 160px;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #888888;
+}
+/*prize for laptops stlye*/
+.prize{
+    border: solid 1px;
+    width: 100px;
+    float: right;
+    background: purple;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    border-radius: 10px  2px  5px ;
+    padding-right: 10px;
+    margin: 5px;
+
+}
+/*Range div*/
+.range{
+    display: block;
+    float: left;
+    border: 2px solid;
+    border-color: orange;
+    margin-top: 15px;
+    font: 15px;
+    background: skyblue;
+    color: darkmagenta;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+.range input{
+    padding-right: 15px;
+    margin-left: 5px;
+}
+
+/*left right stle for range*/
+.min{
+    float: left;
+    color: purple;
+    margin-left: 5px;
+}
+.max{
+    float: right;
+    color: purple;
+    margin-right: 5px;
+}
+/*effects*/

@@ -1,0 +1,25 @@
+tfoot{
+
+    text-align: right;
+
+}
+
+td, th{
+
+    padding: 5px;
+
+}
+
+table, td, th{
+
+    border: 3px solid;
+    border-color: #c0c0c0;
+}
+
+td, th {
+    padding: 5px;
+}
+
+thead tr:nth-child(1) {
+    font-size: 30px;
+}

@@ -1,0 +1,43 @@
+/*Background color*/
+body{
+    background: #e2e2e2;
+
+}
+/*Wordpress logo*/
+#wordpress{
+    position: absolute;
+    background-image: url("../Images/Wordpress.png");
+    background-size: 60%;
+    left: 400px;
+    top: 100px;
+    width: 400px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+#uploadfile{
+    position: absolute;
+    left: 360px;
+    top: 300px;
+
+}
+/*Search button div*/
+#searchbuuton{
+    position: absolute;
+    height: 50px;
+    font-size: 15px;
+    left: 360px;
+    top: 350px;
+    display: inline-block;
+
+
+}
+/*search button text*/
+#searchbuuton input{
+    border-radius: 8px;
+    border-color: skyblue;
+    display: inline-block;
+
+
+}
+
+

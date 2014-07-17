@@ -1,0 +1,94 @@
+
+
+thead{
+    font-family: "Verdana", "sans-serif";
+    font-size: 50px;
+}
+
+.Google{
+
+    height: 100px;
+    vertical-align: top;
+    font-size: 25px;
+}
+
+.Github{
+font-size: 25px;
+    height: 100px;
+    vertical-align: top;
+    text-align: right;
+}
+.Fb{
+    font-size: 25px;
+    height: 100px;
+    text-align: center;
+    vertical-align: top;
+
+}
+.Gmail{
+    font-size: 25px;
+    height: 100px;
+    width: 100px;
+
+}
+
+.Youtube{
+    font-size: 25px;
+    width: 50px;
+    vertical-align: bottom;
+}
+.game{
+    font-size: 25px;
+    width: 50px;
+    vertical-align: bottom;
+
+}
+
+#SocialLive{
+    font-size: 25px;
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    text-align: center;
+
+}
+#Sleep{
+    font-size: 25px;
+    width: 100px;
+    vertical-align: bottom;
+}
+
+#Food{
+
+    font-size: 25px;
+    width: 100px;
+    vertical-align: bottom;
+    text-align: right;
+}
+#Wc{
+
+    font-size: 25px;
+    width: 100px;
+
+    vertical-align: middle;
+
+
+}
+#Beer{
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    text-align: right;
+
+}
+
+#Game_2048{
+    font-size: 25px;
+
+
+
+
+}
+

@@ -1,0 +1,128 @@
+/*Main Font & Background*/
+body{
+    background-color: #eeeeee;
+    font-family: Tahoma;
+}
+/*Form place*/
+form{
+    float: left;
+}
+/*Main Header*/
+h1 {
+    color: #333366;
+    font-weight: bolder;
+
+}
+/*Paragraph for main header*/
+p{
+    color: #5f5f5f;
+    font-size: 16px;
+}
+/*Register header main*/
+h2{
+    font-size: 16px;
+    color: #868686;
+    float: left;
+}
+/*Register header span*/
+h2 span {
+   font-size: 16px;
+    color: #333366;
+    float: right;
+
+}
+/*Header for login*/
+h3{
+
+   font-size: 16px;
+    color: white;
+    padding-bottom: 10px;
+
+}
+
+/*Class for form register */
+.register{
+
+    width: 280px;
+    padding: 5px;
+
+    height: 300px;
+
+
+}
+/*Style for inputs*/
+.register input{
+
+    width: 200px;
+    height: 35px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+/*Style for button register*/
+.register  button{
+    color: #333366;
+    font-weight: bolder;
+    margin-top: 10px;
+    background: #eeeeee;
+    font-size: 15px;
+    border: solid 1px;
+    border-color: #333366;
+    width: 100px;
+    height: 30px;
+    margin-left: 118px;
+
+}
+/*Class for form Login*/
+.login{
+
+    margin-top: 10px;
+    padding: 0 28px;
+    width: 280px;
+    height: 320px;
+    background-color: #333366;
+
+}
+
+/*Checkbox style*/
+.checkbox{
+    padding-top: 10px;
+    font-size: 15px;
+    height: 15px;
+    color: white;
+
+}
+/*Login User name style*/
+#Username{
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+
+}
+/*Password login style*/
+#Password{
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+/*button style*/
+#button{
+    background: transparent;
+    border: solid 1px;
+    border-color: orange;
+    color: white;
+    float: right;
+    padding: 5px;
+    height: 50px;
+    width: 100px
+}
+/*Forgot password style*/
+#forgot{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    float: right;
+    color: white;
+}

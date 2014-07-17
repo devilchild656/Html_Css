@@ -1,0 +1,72 @@
+/*Body background*/
+body{
+    background: pink;
+}
+
+/*Main Header font and size*/
+h1
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+ /*main font for profile*/
+ p{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+/*Meter size*/
+meter{
+    height: 30px;
+    width: 200px;
+    margin-left: 20px;
+
+}
+/*audio div style*/
+#audio_main{
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    float: left;
+    margin-left: 50px;
+
+
+}
+ /*divs style for kent profile*/
+  .Size_div{
+     width: 300px;
+     height: 400px;
+     display: block;
+      float: left;
+      border: 3px solid;
+      border-color: snow;
+
+      box-shadow: 10px 10px 5px #888888;
+      text-align: center;
+ }
+  /*Size of image*/
+ .Size_div  img {
+     width: 150px;
+     height: 200px;
+     margin-left: 20px;
+
+ }
+ /*video div style*/
+#video_main{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: auto;
+    height: auto;
+
+}
+/*Player style*/
+#video_play{
+    border: 5px solid;
+    border-color: white;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+
+

@@ -1,0 +1,166 @@
+/*Main header*/
+h1{
+    font-style: italic;
+    text-align: center;
+}
+/*Font size for page*/
+body{
+    font-size: 15px;
+    font-style: italic;
+
+}
+/*Background for main div*/
+#background {
+    background: hotpink;
+    width: 500px;
+    height: 400px;
+}
+/*From  div*/
+#from  {
+position: absolute;
+    left: 20px;
+    width: 200px;
+}
+#from select{
+    width: 200px;
+    position: absolute;
+}
+#from label{
+    font-size: 15px;
+
+}
+/*To  div style*/
+#To {
+    position: absolute;
+    width: 200px;
+    left: 250px;
+    top: 77px;
+}
+
+#To select{
+    width: 200px;
+}
+#To label{
+    font-size: 15px;
+
+}
+#check{
+position: absolute;
+    left: 350px;
+    top: 120px;
+ }
+/*First date input style*/
+#date{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+   }
+#date input{
+    width: 198px;
+    font-size: 12px;
+    height: 15px;
+
+}
+/*Second date input style*/
+#datesec{
+    position: absolute;
+    top: 130px;
+    left: 250px;
+}
+
+#datesec input{
+
+    font-size: 12px;
+    height: 15px;
+}
+/*Retrun date styles*/
+#Return{
+
+    position: absolute;
+    top: 180px;
+    left: 20px;
+
+}
+
+#Return input{
+    width: 198px;
+    font-size: 12px;
+    height: 15px;
+}
+#Returnsec{
+    position: absolute;
+    top: 180px;
+    left: 250px;
+
+
+}
+#Returnsec input{
+
+    font-size: 12px;
+    height: 15px;
+}
+/*Range stlyes*/
+#range1{
+    position: absolute;
+    top: 230px;
+    left: 20px;
+
+
+}
+#range1 input{
+    font-size: 12px;
+    height: 15px;
+
+}
+
+#range2{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+
+
+}
+#range2 input{
+    font-size: 12px;
+    height: 15px;
+
+}
+
+#range3{
+    position: absolute;
+    top: 230px;
+    left: 150px;
+
+
+}
+#range3 input{
+    font-size: 12px;
+    height: 15px;
+
+}
+#searchbutton{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+
+}
+
+#searchbutton button{
+
+    width: 200px;
+}
+
+#class_flight{
+
+    position: absolute;
+    top: 230px;
+    left: 250px;
+
+}
+#class_flight select{
+    width: 200px;
+}
+
+
+
+

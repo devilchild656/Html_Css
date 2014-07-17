@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Magic Galery</title>
+    <link type="text/css" rel="stylesheet" href="../Css/03_Magic_Galery.css"/>
+</head>
+<body>
+<!--Header of site-->
+
+<header>
+    <div id="logo">
+        <img src="../images/playboy_logo.jpeg"><h1>Play Boy Mansion</h1>
+    </div>
+
+</header>
+<!--Main Galery-->
+<section class="galery">
+    <img name="girl-frame" src="../images/girl_01.jpg" scrolling="no" id="girls-img" />
+    <!--Chose girl links for frame-->
+    <div class="link header-galery">
+            <a href="#" data-info="../images/girl_01.jpg">SexyGirl</a>
+        <br>
+            <a href="#" data-info="../images/girl_02.jpg">HotGirl</a>
+        <br>
+            <a href="#" data-info="../images/girl_03.jpg">Very sexy girl</a>
+        <br>
+            <a href="#" data-info="../images/girl_04.jpg">Damm Girl</a>
+        <br>
+            <a href="#" data-info="../images/girl_05.jpg">Nice girl</a>
+    </div>
+</section>
+<!--script for images and galery-->
+<script type="text/javascript">
+    var element = document.getElementsByClassName("header-galery")[0];
+    element.addEventListener("click", onClickChangePhoto);
+    var img = document.getElementById("girls-img");
+    function  onClickChangePhoto(ev){
+        if(ev.target.nodeName != "A" ){
+            return this;
+        }
+        else{
+            var currentElement = ev.target;
+            var link = currentElement.getAttribute("data-info");
+            img.setAttribute("src", link);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../Css/04_Fake_Book.css"/>
+</head>
+<!--Main header text -->
+<header>
+    <h1>fakebook<span> &#174</span></h1>
+    <h2>Registration</h2>
+    <h3>Its safe and aways will be safe </h3>
+</header>
+<body>
+<!--None-Important Information-->
+<div class="non-import">
+    <form >
+        <fieldset>
+            <legend>None-Important Information</legend>
+            <input type="text" name="name" placeholder="First Name">
+            <input type="text" name="lastname" placeholder="Last Name">
+            <input type="email" name="Email" placeholder="Email">
+            <input type="text" name="number" placeholder="Phone Number">
+            <input type="password" name="password" placeholder="Password">
+            <input type="url" name="website" placeholder="Website">
+
+            <p>Birthday</p>
+            <input type="datetime-local" name="birthday" >
+
+            <div class="gender" id="padinggender">
+                <input type="radio" name="gender" value="female" id="female" />
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" value="male" id="male" />
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" value="other" id="other" />
+                <label for="other">Other</label>
+            </div>
+
+        </fieldset>
+
+    </form>
+</div>
+
+<!--Form Importnat infomation-->
+<div class="inport-info">
+    <form >
+        <fieldset>
+            <legend>Important information *required</legend>
+
+            <select name="import_option" id="Impornant" >
+                <option>Enter Country</option>
+                <option>Bulgaria</option>
+                <option>Germany</option>
+                <option>Polish</option>
+                <option>Usa</option>
+                <option>Spanish</option>
+            </select>
+            <input type="text" name="Vilige" placeholder="Village">
+            <input type="text" name="District" placeholder="District">
+            <input type="text" name="Street" placeholder="Street">
+            <input type="text" name="Nr" placeholder="Nr" id="littletext">
+            <input type="text" name="Floor" placeholder="Floor" id="littletext1">
+            <input type="text" name="Ap Nr" placeholder="Ap nr" id="littletext2">
+
+            <p>Door color</p>
+            <input type="color" name="Door color" value="#344556" >
+            <input type="text" name="Water" placeholder="Water matter Nr">
+            <select name="Aunt" id="Aunt" >
+                <option>Aun's pant size</option>
+                <option>S</option>
+                <option>M</option>
+                <option>X</option>
+                <option>Xl</option>
+                <option>Spanish</option>
+            </select>
+            <p>More</p>
+            <textarea name="more_info" placeholder="Give Us More Personal Information!!!" ></textarea>
+
+        </fieldset>
+
+    </form>
+
+</div>
+<div style="display: inline-block">
+    <input type="reset" value="Clear Form" class="clear button">
+    <button class="register button" type="submit">Register</button>
+</div>
+
+</body>
+</html>

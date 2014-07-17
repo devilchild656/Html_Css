@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../CSS/03_Style_Form.css"/>
+</head>
+<body>
+<!--Form for get method for submit-->
+    <form method="get">
+        <!--Step 1 Names mail and number-->
+       <fieldset>
+           <h2>Step 1:Your details</h2>
+           <div class="textinputs">
+               <label for="name">Name</label>
+               <input type="text" placeholder="First and Last name" name="name" id="name">
+
+           </div>
+           <div class="textinputs">
+               <label for="email">Email</label>
+               <input type="email" placeholder="exsam@domain.com" id="email" name="number">
+           </div>
+           <div class="textinputs">
+               <label for="number">Number</label>
+               <input type="text" placeholder="eg. +447500000" name="number" id="number">
+           </div >
+           <!--Step 1.1 adress and country-->
+           <h2>Step 1:Delivery Adress</h2>
+           <div id="adress_div">
+                <label for="adress">Adress</label>
+                <textarea placeholder="Adress" id="adress" name="adress"></textarea>
+           </div >
+           <div class="textinputs">
+               <label for="postcode">PostCode</label>
+               <input type="text" placeholder="Postcode" name="postcode" id="postcode">
+           </div >
+           <div class="textinputs">
+               <label for="contry">Country</label>
+               <input type="text" placeholder="Country" id="contry" name="country">
+           </div>
+           <!--Step 1.2 Card detail-->
+           <h2>Step 1: Card details</h2>
+           <div id="data">
+                   <p>Card type</p>
+                   <input type="radio" name="Visa" value="Visa" id="cardnumber_visa"  required>
+                   <label for="cardnumber_visa">Visa</label>
+                   <input type="radio" name="AmEx" value="Amex" id="Amex">
+                   <label for="Amex">Amex</label>
+                   <input type="radio" name="Mastercard" value="Mastercard" id="mastercard">
+                   <label for="mastercard">Mastercard</label>
+           </div>
+           <div class="textinputs">
+               <label for="cardnumber">Card number</label>
+               <input type="text" id="cardnumber" name="cardnumber" required>
+           </div >
+           <div class="textinputs">
+               <label for="security">Security code</label>
+               <input type="text" id="security" name="security" >
+           </div >
+           <div class="textinputs">
+               <label for="namecard">Name on Card</label>
+               <input type="text" id="namecard" name="namecard" placeholder="Exstcly name of card">
+           </div >
+           <button type="submit" id="button">Buy it</button>
+       </fieldset>
+
+    </form>
+
+</body>
+</html>

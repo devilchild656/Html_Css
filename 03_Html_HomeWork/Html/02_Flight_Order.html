@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="../Css/02_Flight_Order.css"/>
+
+</head>
+<body>
+<div id="background">
+    <form method="post">
+<div><h1>FLIGHT ODER</h1></div>
+        <!--From-->
+<div id="from">
+    <label for="from_to">From</label>
+    <br>
+    <select name="From_div" id="from_to">
+        <option>Enter City</option>
+        <option>Sofia</option>
+        <option>Pleven</option>
+        <option>Ruse</option>
+        <option>Varna</option>
+        <option>Burgas</option>
+    </select>
+</div>
+    <!--To-->
+
+    <div id="To" >
+        <label for="flight_to">To</label>
+        <br>
+            <select name="To_div" id="flight_to" >
+            <option>Enter city</option>
+            <option>Sofia</option>
+            <option>Pleven</option>
+            <option>Ruse</option>
+            <option>Varna</option>
+            <option>Burgas</option>
+        </select>
+    </div>
+
+    <!--Check box for city-->
+    <div id="check">
+        <input type="checkbox" name="prefer_direct" id="prefer">
+        <label for="prefer">Prefer direct</label>
+    </div>
+    <!--Departure date-->
+<div id="date">
+    <label for="departude_date">Departure Date</label>
+    <br>
+    <input type="date" name="Calendar" placeholder="enter date" id="departude_date">
+
+</div>
+<!--Time interval-->
+<div id="datesec">
+         <label for="time_interval">Time Interval</label>
+    <br>
+         <input type="time" name="time_interval" id="time_interval" placeholder="--:--">
+         <input type="time" name="time_interval" placeholder="--:--">
+</div>
+        <!--Return date-->
+    <div id="Return">
+        <label for="return_date">Return Date</label>
+        <br>
+        <input type="date" name="Calendar" placeholder="enter date" id="return_date">
+    </div>
+        <!--Time interval return-->
+        <div id="Returnsec">
+            <label for="time_interval2">Time Interval</label>
+            <br>
+            <input type="time" name="time_interval" id="time_interval2">
+            <input type="time" name="time_interval">
+        </div>
+        <!--Range -->
+    <div id="range1">
+            <label for="quantit1">12+</label>
+            <br>
+            <input type="number" name="quantit1" min="1" max="12" id="quantit1" placeholder="0">
+    </div>
+         <div id="range2">
+            <label for="quantit2">2-12</label>
+            <br>
+            <input type="number" name="quantity2" min="2" max="12" id="quantit2" placeholder="0">
+         </div>
+         <div id="range3">
+            <label for="quantit3">0-2</label>
+            <br>
+            <input type="number" name="quantity3" min="0" max="2" id="quantit3" placeholder="0">
+         </div>
+        <div id="class_flight">
+            <label for="class">Chose class</label>
+            <br>
+            <select name="Class" id="class" >
+                <option>Pick Class</option>
+                <option>First Class</option>
+                <option>Second Class</option>
+                <option>Economy Class</option>
+            </select>
+        </div>
+         <div id="searchbutton">
+        <button type="submit">Search</button>
+         </div>
+  </form>
+</div>
+</body>
+</html>

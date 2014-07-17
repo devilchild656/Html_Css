@@ -1,0 +1,138 @@
+/*facebook font load from fonts*/
+@font-face {
+    font-family: Dark-shite;
+    src: url(../Fonts/facebook-letter-faces.ttf) format("opentype");
+}
+/*Header text Facebook title*/
+header{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Dark-shite,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+span{
+    font-size: 25px;
+    text-align: left;
+    vertical-align: bottom;
+
+}
+/*style for second header title*/
+h2{
+    color: white;
+    font-size: 25px;
+}
+/*style for third header title*/
+h3{
+    font-size: 24px;
+}
+
+/*Background for whole site*/
+body {
+    background: #336699;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/*Filed set for non-importnat information*/
+.non-import
+{
+    float: left;
+    display: block;
+    width: 500px;
+    position: relative;
+    padding-left: 60px;
+
+
+}
+.non-import input{
+    border-radius: 5px;
+    margin: 5px;
+    width: auto;
+    display: inline-block;
+
+
+}
+
+.non-import button{
+    margin: 10px;
+
+
+}
+.non-import fieldset {
+    padding-left: 50px;
+    height: 315px;
+    float: left;
+    display: block;
+    border-radius: 5px;
+}
+
+
+/*importnat infomation*/
+.inport-info{
+
+    float: left;
+    display: block;
+    width: auto;
+    padding-left: 40px;
+
+}
+.inport-info fieldset{
+
+    width: 400px;
+    border-radius: 5px;
+    height: 100%;
+}
+.inport-info input{
+    margin: 5px;
+    width: 120px;
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+
+}
+.inport-info fieldset textarea{
+    height: 80px;
+    width: 400px;
+
+
+}
+/*width nr floor ap nr*/
+#littletext{
+    width: 50px;
+}
+#littletext1{
+    width: 50px;
+}
+#littletext2{
+    width: 50px;
+}
+#padinggender{
+    padding: 10px;
+}
+/*Buttons*/
+.button{
+
+    width: 200px
+    font-family:Dark-shite,sans-serif ;
+    height: 50px;
+
+}
+.clear {
+    width: 300px;
+    margin-left: 120px;
+    color: purple;
+    font-size: 20px;
+}
+
+
+.register {
+    margin: 20px;
+    width: 315px;
+    margin-left:250px;
+    color: purple;
+    font-size: 20px;
+}

@@ -1,0 +1,180 @@
+@font-face {
+    font-family: font_header;
+    src: url(../fonts/Fairview_Regular.otf);
+}
+@font-face{
+    font-family: nunito;
+    src: url(http://fonts.googleapis.com/css?family=Nunito);
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin: auto 0;
+    width: 80%;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.50%;
+    font-family: nunito,sans-serif;
+}
+header{
+    height: 100px;
+
+    text-align: center;
+    background: #E05E44;
+}
+header a{
+    font-family:font_header,fantasy ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 7rem;
+    color: white;
+}
+header a:hover{
+    color: black;
+}
+/*navigation*/
+#navigation{
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+
+}
+#navigation ul{
+
+    height: 100%;
+
+    margin: 0;
+
+    padding: 0;
+}
+#navigation ul li {
+    text-decoration: none;
+    font-family:font_header,fantasy ;
+    display: inline-block;
+    margin: 0;
+    width: 200px;
+    padding: 0;
+    font-size: 2.5rem;
+
+}
+#navigation ul li a {
+   color: silver;
+    width: 200px;
+    display: inline-block;
+
+}
+
+#navigation ul li :hover{
+    background: #E05E44;
+    color: black;
+
+}
+#navigation ul li a:hover{
+    background: #E05E44;
+    color: black;
+}
+#navigation ul li:nth-child(3){
+    background: #E05E44;
+
+}
+.main{
+
+    width: 90%;
+    margin: 0 auto;
+}
+.main h3{
+    font-size: 1.5rem;
+}
+.main h4{
+    font-size: 1rem;
+}
+.main table tr td {
+    font-size: 0.8rem;
+}
+.main table tr td {
+
+    text-align: left;
+    width: 400px;
+    height: 20px;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.main table tr td h5{
+    font-size: 1.1rem;
+}
+
+.main table tr td a{
+    color: black;
+    text-decoration: underline;
+}
+.main table tr td a:hover{
+    color: #E05E44;
+    text-decoration: underline;
+}
+.footer{
+    margin-top: 2%;
+    border: 1px solid;
+    background: #222222;
+
+}
+.footer hr{
+    margin: 0 auto;
+    width: 90%;
+    height: 1%;
+}
+.footer nav{
+
+    margin-bottom: 2%;
+
+}
+.footer nav  {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+
+}
+.footer nav ul  {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.footer nav ul li {
+    text-decoration: none;
+    font-family:font_header,fantasy ;
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    padding: 0;
+    font-size: 1.1rem;
+
+}
+.footer nav ul li a{
+    color: silver;
+    width: 150px;
+    display: inline-block;
+
+}
+.footer nav ul li a:hover {
+   background: silver;
+    color: black;
+
+}
+
+.last{
+    text-align: center;
+
+}
+.last a{
+    color: #AAAAAA;
+}

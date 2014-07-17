@@ -1,0 +1,115 @@
+body{
+    font-size: 62.50%;
+    background-image: url("../images/form-background.png");
+    font-family: header_font,sans-serif;
+}
+@font-face {
+    font-family: header_font;
+    src: url(../fonts/yanonekaffeesatz-regular-webfont.ttf);
+}
+
+
+.main_form{
+    margin: 0 auto;
+
+    width: 50%;
+
+}
+.main_form header{
+    position: relative;
+    top: 80px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: header_font,sans-serif;
+    color: #7C7873;
+
+}
+.first_img{
+    background-image: url("../images/envelope-bottom.png");
+    width: 530px;
+    height: 220px;
+    position: relative;
+    top: 500px;
+    left: 60px;
+    z-index: 1;
+}
+.second_img{
+    background-image: url("../images/envelope-top.png");
+    width: 530px;
+    height: 350px;
+    position: relative;
+    z-index: -1;
+    top: -475px;
+    left: 60px;
+
+
+
+}
+
+.field{
+    border-radius: 5px;
+    width: 480px;
+    height: 560px;
+    position: relative;
+    background-image: url("../images/letter-background.png");
+    left: 80px;
+    top: -150px;
+
+
+}
+.field div{
+
+    padding-left: 40px;
+    border-radius: 5px;
+
+
+}
+.field fieldset{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.field textarea {
+    width: 400px;
+    height: 100px;
+    background: transparent;
+    border-color: #E6E1D8;
+    }
+.field textarea:focus{
+    background: white;
+}
+.field input{
+    background: transparent;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: #E6E1D8;
+}
+.field input:focus{
+    background: white;
+}
+.field label{
+    font-size: 2rem;
+    color: #A47873;
+}
+.field span{
+    font-size: 1rem;
+    color: #BAABA9;
+}
+.button{
+    font-family: header_font,sans-serif;
+    margin-top: 20px;
+    margin-left: 120px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7C7873;
+
+
+}
+.button:hover{
+    background: #BBC9CF;
+    color: #435C70;
+    border-radius: 5px;
+}

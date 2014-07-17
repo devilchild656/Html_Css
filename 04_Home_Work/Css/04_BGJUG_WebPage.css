@@ -1,0 +1,266 @@
+/*Headers Fonts*/
+body{
+    background: #715593 ;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*wrapper main */
+.wrapper {
+
+    width: auto;
+    height: 110px;
+    background: whitesmoke;
+    border-color: orange;
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+    margin: 0;
+    box-shadow: 3px 8px 3px ;
+
+
+}
+/*logo style */
+#logo {
+
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+
+}
+/*size of logo*/
+#logo img{
+    width: 100px;
+
+    height: 100px;
+    position: relative;
+
+}
+/*Font size of logo text*/
+#Header_Text{
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 50px;
+}
+/* style  of text of logo*/
+#Header_Text a {
+    text-decoration: none;
+    color: skyblue;
+    font-style: italic;
+    font-weight: bold;
+}
+/*hover efect*/
+#Header_Text a:hover{
+    color: orange;
+}
+/*Full name of site*/
+#full_name{
+    margin-left: 50px;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: darkblue;
+}
+/*menu weapper*/
+.menu{
+    width: 100%;
+    display: inline-block;
+
+    position: relative;
+
+    height: 60px;
+    background: skyblue;
+    border-color:orange;
+    box-shadow: 3px 8px 3px ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/*menu style*/
+.menu ul{
+
+    display: inline-block;
+
+}
+.menu ul li  {
+    margin-left: 10px;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+/*Search*/
+.search{
+    margin-top: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    float: right;
+    border-radius: 10px;
+    border: none;
+
+
+}
+/*Navigation*/
+.navigation{
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    border: 1px solid;
+    width: 200px;
+    height: 500px;
+    border-radius: 10px;
+    background: yellow;
+    box-shadow: 2px 8px 2px ;
+
+}
+
+/*Navigation font*/
+.navigation a  {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+    margin-top: 20px;
+    padding-left: 5px;
+    font-weight: bold;
+
+}
+.navigation a:hover{
+    color: orange;
+}
+/*Main content*/
+.main{
+    border-radius: 10px;
+    display: inline;
+    height: 500px;
+    width: 800px;
+    border: 1px solid;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background: chocolate;
+    text-align: center;
+
+}
+/*frame for content*/
+.main iframe{
+    width: 600px;
+    height: 200px;
+    margin-top: 20px;
+    background: white;
+
+}
+/*Language*/
+.language{
+
+    display: inline-block;
+    float: left;
+    border: 2px solid;
+    border-color: yellowgreen;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 25px;
+    box-shadow: 2px 8px 2px ;
+    background: darkred;
+
+}
+.language label{
+    margin-left: 30px;
+    color: white;
+}
+
+.language select{
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.footer{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: white;
+    width: 100%;
+    height: 200px;
+    background: black;
+
+}
+.footer div{
+    display: inline-block;
+    float: left;
+    width: 350px;
+    height: 190px;
+
+    margin-top: 5px;
+    margin-left: 10px;
+    border-color: white;
+
+}
+.footer div h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+.footer p{
+
+    font-size: 20px;
+    color: silver;
+    padding-left: 20px;
+}
+.footer ul{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.footer ul li{
+    text-decoration: none;
+}
+.footer ul li a {
+    color: silver;
+    text-decoration: none;
+}
+.footer h4
+{
+    color: white;
+    padding-left: 20px;
+}
+
+
+
+/*Blogg roll*/
+.blogroll{
+    margin-top: 10px;
+   padding-left: 30px;
+    width: 300px;
+    height: 200px;
+
+}
+/*font blogg roll*/
+.blogroll p{
+    font-size: 15px;
+    color: white;
+
+
+}
+.blogroll hr{
+    width: auto;
+    color: yellowgreen;height: 10px;
+    background: white;
+
+}
+
+
+

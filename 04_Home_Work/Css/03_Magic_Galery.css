@@ -1,0 +1,73 @@
+/*Main header text,font and style*/
+
+h1{
+    color: orange ;
+    font-size: 50px;
+    text-align: center;
+}
+/*Background color*/
+body{
+    background: darkgrey;
+    padding: 0px;
+    margin: 0px;
+/*logo style*/
+}
+#logo{
+
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: auto;
+    background: black;
+    text-align: center;
+
+
+}
+/*size of logo*/
+#logo img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-color: white ;
+
+}
+/*style for galery*/
+.galery{
+    width: auto;
+    height: auto;
+    display: block;
+
+}
+/*iframe inside galery style*/
+.galery img{
+
+    height: 500px;
+    width:430px ;
+    border: 1px solid;
+    border-color: orange;
+    box-shadow: 10px 10px 5px #888888;
+}
+/*menu for photos*/
+.link
+{
+    margin-top: 20px        ;
+    display: inline-block;
+    background: black;
+    vertical-align: top;
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid;
+    box-shadow: 10px 10px 5px #888888;
+
+
+}
+.link a {
+    text-decoration: none;
+    font-size: 30px;
+    color: silver;
+}
+.link a:hover{
+    color: orange;
+
+}
